@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Посмотри в окно</title>
+
+    <!--<link rel="icon" href="favicon.ico" sizes="any">-->
+    <link rel="icon" href="icon.svg" type="styles/9b9e71d53adebba8cf8daa1cd41509e6.svg">
+    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+
+    <meta property="og:title" content="Можно мягче">
+    <meta property="og:url" content="https://maybesofter.com/">
+    <meta property="og:image" content="images/og.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/preloader.css" />
@@ -20,7 +29,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
-              <span class="search-form__label-text visually-hidden">Город</span>
+              <span class="search-form__label-text visually-hidden"></span>
               <input
                 type="text"
                 placeholder="Санкт Петербург, например"
@@ -74,7 +83,7 @@
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
         <div class="content__list-container">
-          <ul class="content__list">
+          <ul class="content__list custom-scrollbar">
             <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
           </ul>
         </div>
